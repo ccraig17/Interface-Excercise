@@ -41,7 +41,7 @@ public class Main {
     }
     //take the ArrayList of each object saved for stores to the device
     public static void saveObject(ISaveable objectToSave){
-        for(int i=0; i<objectToSave.write().size(); i+=i){
+        for(int i=0; i<objectToSave.write().size(); i+=1){
             System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
         }
 
